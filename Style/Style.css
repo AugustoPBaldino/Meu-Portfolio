@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+p{
+    font-family: 'inter';
+}
+
+header{
+    background-image: linear-gradient(to right, #787CFF,#787CFF,#151A99);
+}
+
+body {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/323039/black-wood-small.jpg);
+    color:#ddd;
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1;
+      margin:0;
+      padding:0;
+  }
+  .container {
+    margin: auto;
+    text-align: center; 
+    width: 940px;
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  h2 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  
+  
+  
+  /* #Shape Styles
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .shape-section {
+    background: #222;
+    border-bottom: 2px solid #555;
+    border-top: 2px solid #555;
+    margin-top: 30px;
+    padding: 40px 0;
+  }
+  .diamond-shape {
+    background: #fff;
+    height: 60px;
+    text-align: center;
+    transform:rotate(45deg);
+      width:60px;
+  }
+  .item-count {
+    color: #333;
+    display: table-cell;
+    height: 60px;
+    transform: rotate(-45deg);
+    vertical-align: middle;
+      width:60px;
+  }
