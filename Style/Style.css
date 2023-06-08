@@ -70,7 +70,7 @@ p{
 position: relative;
 height: 36px;
 left: 78px;
-top: 150px;
+top: 50px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -79,6 +79,9 @@ font-size: 40px;
 line-height: 36px;
 }
 
+.img{
+  margin-left: 50px;
+}
 .text-border{
   
   position: relative;
@@ -95,28 +98,33 @@ line-height: 36px;
   order: 0;
   flex-grow: 0;
   left: 50px;
-  top: 150px;
+  top: 50px;
   padding: 4px 26px 4px 26px;
 }
 
 #list {
   position: relative;
-  font-size: 35px;
+  font-size: 30px;
   height: 118px;
   left: 58px;
-  top: 190px;
+  top: 50px;
   margin: 30px;
   padding: 20px;
 }
 
 #l1{
   position: relative;
-  top: 7px;
+  top: 10px;
 }
 
 #l2{
   position: relative;
-  top: 4px;
+  top: 2px;
+}
+
+#l3{
+  position: relative;
+  top: -7px;
 }
 
 .icons {
@@ -126,8 +134,27 @@ line-height: 36px;
   align-items: flex-start; /* Alinhamento vertical à esquerda */
   justify-content: center; /* Alinhamento horizontal ao centro */
   margin: 55px;
-  bottom: 589px;
+  bottom: 730px;
   left: 10px; /* Ajuste o valor conforme necessário */
+}
+
+.icon-border{
+  
+  position: relative;
+  box-sizing: border-box;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  width: 700px;
+  height: 90px;
+  font-size: 40px;
+  border: 3px solid #000000;
+  border-radius: 50px;
+  order: 0;
+  flex-grow: 0;
+  left: 120px;
+  top: -250px;
+  padding: 4px 26px 4px 26px;
 }
 
 
@@ -140,7 +167,7 @@ body {
   position: relative;
   width: 500px;
   height: 500px;
-  top: 100px;
+  bottom: 170px;
   left: 200px;
 }
 
