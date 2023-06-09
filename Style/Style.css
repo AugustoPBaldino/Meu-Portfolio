@@ -160,9 +160,8 @@ line-height: 36px;
 
 
 body {
-  background: linear-gradient(to right, #7130c5, #7853a9);
+  background: linear-gradient(to top, #308ead 0%, #6f86d6 100%);
 }
-
 .container {
   position: relative;
   width: 500px;
@@ -181,11 +180,48 @@ body {
   opacity: 0.6rem;
 }
 
+h1{
+
+position: relative;
+width: 419px;
+height: 36px;
+left: 300px;
+top: -80px;
+
+align-items: center;
+font-size: 45px;
+font-family: 'Inter';
+font-weight: 400;
+}
+
+#sobre-mim{
+width: 1000px;
+height: 300px;
+left: 40px;
+top: 535px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+text-align: center;
+}
+
+#img-hobbie{
+
+position: relative;
+width: 345px;
+height: 736px;
+left: 1340px;
+bottom: 550px;
+
+border-radius: 20px;
+}
 .diamond-shape {
   position: relative;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #0000001d, #8838ba0d);
+  background: linear-gradient(to right, #00000026, #0000001f);
   transform: rotate(45deg);
   z-index: 1;
   left: 1000px;
